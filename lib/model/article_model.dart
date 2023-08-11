@@ -5,7 +5,13 @@ class ArticleModel {
   late String url;
   late String urlToImage;
   late String content;
-  DateTime publishedAt
 
-  ArticleModel({this.author, this.title, this.description, this.url,this.urlToImage, this.content, this.publishedAt})
+  ArticleModel({
+    required this.author,
+    required this.title,
+    required this.description,
+    required this.url,
+    required this.urlToImage,
+    required this.content,
+  });
 }
