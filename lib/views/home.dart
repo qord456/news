@@ -15,7 +15,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   List<CategoryModel> category = [];
   List<ArticleModel> article = [];
-  bool _loading = false;
+  bool _loading = true;
 
   @override
   void initState() {
